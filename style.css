@@ -1,0 +1,82 @@
+body {
+  font-family: 'Arvo', serif;
+}
+
+#info {
+}
+
+#container {
+  top: 0;
+  margin: 0 auto;
+  width: 600px;
+}
+
+#box-area {
+  position: relative;
+  width: 600px;
+  height: 300px;
+}
+
+.box {
+  position: absolute;
+  top: 100px;
+
+  height: 100px;
+  width: 100px;
+
+  border-radius: 100px;
+  background-color: black;
+
+  font-size: 22px;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  color: white;
+}
+
+#box1 {
+  left: 0;
+}
+
+#box2 {
+  left: 250px;
+}
+
+#box3 {
+  right: 0;
+}
+
+
+#control {
+}
+
+.shuffle-ctr {
+  display: inline;
+  height: auto;
+  width:  600px;
+}
+
+.shuffle-ctr p {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#shuffle-count p {
+}
+
+#shuffle-count-input {
+  font-size: 20px;
+  width: 60px;
+}
+
+#shuffle-speed-input {
+  width: 250px;
+}
+
+#shuffle-speed p {
+}
+
+#start-button {
+  margin-top: 30px;
+  font-size: 20px;
+}

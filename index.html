@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+  <head>
+    <!-- CSS file -->
+    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- JS files -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="info">
+        <h1>Find the green dot</h1>
+      </div>
+      <div id="control">
+        <div class="shuffle-ctr" id="shuffle-count">
+          <p>Number of shuffles:</p>
+          <input type="number" id="shuffle-count-input" min="1" value="5">
+        </div>
+        <div class="shuffle-ctr" id="shuffle-speed">
+          <p>Shuffle speed:</p>
+          <div id="shuffle-speed-input"></div>
+        </div>
+        <div class="shuffle-ctr">
+          <button id="start-button">Start</button>
+        </div>
+      </div>
+
+      <div id="box-area">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box2"></div>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
+
+
